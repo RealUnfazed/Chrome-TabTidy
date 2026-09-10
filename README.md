@@ -4,6 +4,8 @@ A lightweight Chrome extension that automatically closes or archives tabs you ha
 
 TabTidy watches Chrome's own record of tab activity and sweeps away anything that's been idle longer than the time you set — no manual tab-hunting required.
 
+This is the Chrome build of TabTidy, built for Chromium-based browsers using the `chrome.*` Extensions API and Chrome's Manifest V3 background model. Looking for the Firefox version instead? See the [Firefox build](https://github.com/RealUnfazed/Firefox-TabTidy).
+
 ## ✨ Features
 
 - ⏱️ Set your own idle threshold, from **30 minutes** up to **14 days**
@@ -49,7 +51,7 @@ The idle threshold can be set anywhere from:
 1. Download or clone this repository.
 
 ```bash
-git clone https://github.com/realunfazed/tab-cleaner.git
+git clone https://github.com/RealUnfazed/Chrome-TabTidy.git
 ```
 
 2. Open Chrome and navigate to:
